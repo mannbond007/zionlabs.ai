@@ -16,11 +16,19 @@ const CompanySection = () => {
     <section className="bg-gray-50 py-10">
       <div className="max-w-7xl mx-auto text-center overflow-hidden">
         {/* Section Title */}
-        <h2 className="text-2xl md:text-3xl text-slate-700 text-[42px] font-semibold mb-10">
+        <div className="px-4 md:px-0">
+          <h2
+          className="text-[20px] md:text-[30px] font-bold text-center text-transparent 
+  bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-violet-600 
+  border border-purple-500/40 w-fit px-8 py-2 mx-auto rounded-full 
+  backdrop-blur-md shadow-[0_4px_30px_rgba(168,85,247,0.2)] 
+  hover:scale-[1.03] transition-all duration-500 ease-out mb-10 "
+        >
           Trusted by Leading Companies
         </h2>
+        </div>
 
-        {/* Scrolling wrapper */}
+        {/* Scrolling wrapper */} 
         <div className="relative flex overflow-hidden">
           {/* Fade overlays (optional for edges) */}
           <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-gray-50 to-transparent z-10" />
@@ -28,11 +36,11 @@ const CompanySection = () => {
 
           {/* Infinite loop track */}
           <motion.div
-            className="flex space-x-20 flex-shrink-0"
+            className="flex space-x-15 flex-shrink-0"
             animate={{ x: ["0%", "-100%"] }}
             transition={{
               ease: "linear",
-              duration: 20, // adjust speed
+              duration: 35, // adjust speed
               repeat: Infinity,
             }}
           >
