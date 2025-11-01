@@ -5,7 +5,7 @@ import star_icon from "./star_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
 import profile_img_1 from "./profile_img_1.png";
 import arrow_icon from "./arrow_icon.svg";
-import { SquarePen, Hash, Image, Eraser, Scissors, FileText } from 'lucide-react'
+import { SquarePen, Hash, Image, Eraser, Scissors, FileText, Code } from 'lucide-react'
 import ai_gen_img_1 from "./ai_gen_img_1.png";
 import ai_gen_img_2 from "./ai_gen_img_2.png";
 import ai_gen_img_3 from "./ai_gen_img_3.png";
@@ -19,9 +19,11 @@ export const assets = {
     profile_img_1,
     arrow_icon,
 };
+import { Code2, Sparkles, Monitor } from 'lucide-react';
+
 
 export const AiToolsData = [
-    {
+ {
         title: 'AI Article Writer',
         description: 'Create high-quality, engaging articles on any subject using AI writing technology.',
         Icon: SquarePen,
@@ -57,12 +59,39 @@ export const AiToolsData = [
         path: '/ai/remove-object'
     },
     {
-        title: 'Resume Reviewer',
+        title: 'Resume Analyzer',
         description: 'Let AI review your resume and enhance your chances of securing your dream job today.',
         Icon: FileText,
         bg: { from: '#12B7AC', to: '#08B6CE' },
         path: '/ai/review-resume'
+    },
+
+    // 🧠 Coming Soon Features
+    {
+        title: 'AI Code Generator',
+        description: 'Instantly generate optimized code snippets for any language or framework using AI.',
+        Icon: Code2,
+        bg: { from: '#7843E6', to: '#A354E6' },
+        path: '/ai/code-generator',
+        comingSoon: true
+    },
+    {
+        title: 'AI Logo Maker',
+        description: 'Instantly design unique, professional logos using AI-powered creativity.',
+        Icon: Sparkles,
+        bg: { from: '#FDBA20', to: '#FF934C' },
+        path: '/ai/logo-maker',
+        comingSoon: true
+    },
+    {
+        title: 'AI Presentation Generator',
+        description: 'Generate full PowerPoint or Google Slides presentations from your text prompts.',
+        Icon: Monitor,
+        bg: { from: '#EB5E28', to: '#F06543' },
+        path: '/ai/presentation',
+        comingSoon: true
     }
+
 ]
 
 export const dummyTestimonialData = [
