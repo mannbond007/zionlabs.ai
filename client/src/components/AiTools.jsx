@@ -15,16 +15,16 @@ const AiTools = () => {
         <p className='text-gray-500 mt-3 max-w-lg mx-auto'>Everything you need to create, enhance, and optimize your content with cutting-edge AI technology.</p>
       </div>
 
-      <div className='flex flex-wrap mt-10 justify-center'>
+      <div className='flex flex-wrap mt-16 justify-center'>
         {AiToolsData.map((tool, index) => (
   <div
     key={index}
-    className="relative p-8 m-4 max-w-xs rounded-lg bg-[#FDFDFE] shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
+    className="relative  p-8 m-4 max-w-xs rounded-lg bg-[#FDFDFE] shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
     onClick={() => user && navigate(tool.path)}
   >
     {/* Coming Soon Tag */}
     {tool.comingSoon && (
-      <span className="absolute top-3 right-3 bg-gradient-to-tr from-[#84cc16] via-[#16a34a] to-[#0f766e] text-white text-[10px] font-semibold px-2 py-[2px] rounded-full shadow-md">
+      <span className="absolute top-3 right-3 bg-gradient-to-r from-fuchsia-500 to-cyan-500 text-white text-[10px] font-semibold px-3 py-[2px] rounded-full shadow-md">
         Coming Soon
       </span>
     )}

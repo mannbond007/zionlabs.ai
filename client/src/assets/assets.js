@@ -79,7 +79,7 @@ export const AiToolsData = [
         title: 'AI Logo Maker',
         description: 'Instantly design unique, professional logos using AI-powered creativity.',
         Icon: Sparkles,
-        bg: { from: '#FDBA20', to: '#FF934C' },
+        bg: { from: '#0D9488', to: '#1E40AF' },
         path: '/ai/logo-maker',
         comingSoon: true
     },
@@ -87,7 +87,7 @@ export const AiToolsData = [
         title: 'AI Presentation Generator',
         description: 'Generate full PowerPoint or Google Slides presentations from your text prompts.',
         Icon: Monitor,
-        bg: { from: '#EB5E28', to: '#F06543' },
+        bg: { from: '#FB923C', to: '#C2410C' },
         path: '/ai/presentation',
         comingSoon: true
     }

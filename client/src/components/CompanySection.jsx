@@ -13,7 +13,7 @@ const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
 const CompanySection = () => {
   return (
-    <section className="bg-gray-50 py-10">
+    <section className="bg-gray-50 md:py-10">
       <div className="max-w-7xl mx-auto text-center overflow-hidden">
         {/* Section Title */}
         <div className="px-4 md:px-0">

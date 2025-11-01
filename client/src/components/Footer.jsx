@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
-    <footer className="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-gray-500 mt-20">
+    <footer className="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-gray-500 mt-20 md:mt-40">
       <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
         <div className="md:max-w-96">
           {/* <img className="h-9" src={assets.logo} alt="logo"/> */}
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="pt-4 text-center text-xs md:text-sm pb-5">
+      <p className="pt-4 mt-2 text-center text-xs md:text-sm pb-5">
         Copyright 2025 © <span className="text-transparent bg-clip-text font-semibold bg-gradient-to-r from-fuchsia-800 via-cyan-700 to-emerald-300">TheTechZion</span>. All Right Reserved.
       </p>
     </footer>
