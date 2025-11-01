@@ -18,7 +18,7 @@ const Navbar = () => {
         onClick={() => navigate("/")}
         className="font-semibold text-2xl sm:text-3xl cursor-pointer 
         bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-violet-600">
-        zionlabs.ai
+        ZionLabs.ai
       </h2>
 
       {/* Auth Button / User Profile */}
